@@ -46,6 +46,20 @@ This is sample readme which i have tried by learning git commands :)
 - **[git push]--->(after git commit)**
 - **[git pull]**
 
+
+## SSH CONFIG FOR GIT.
+- **[ssh-keygen -t rsa -b 4096 -C "your_github_email@gmail.com"]--->(to add specific ssh key)**
+- **add password to more security purpose**
+- **eval "$(ssh-agent -s)"**
+- It will generate ranodm agent id
+- **ssh-add ~/.ssh/id_rsa**
+- enter above password again 
+- It will ad your identity agent id to above generated ssh key
+- To copy above key use -->>
+- **clip < ~/.ssh/id_rsa.pub** (for windows)
+- **pbcopy < ~/.ssh/id_rsa.pub** (for mac)
+
+
 ## Contributing
 
 Really Do you want to contribute OH no problem at all, just fork and get started with learning with git :)
