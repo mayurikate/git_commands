@@ -30,7 +30,7 @@ This is sample readme which i have tried by learning git commands :)
 
 - **[git add .]--->(for all new files)**
 	OR
-- **[git add *.txt , *.php]--->(for all new with specific wildcart)**
+- **[git add '*.txt' , '*.php']--->(for all new with specific wildcart)**
 - **[git add index.php]--->(only this particular file)**
 
 - **[git commit -m"msg here"]--->(Give specific message to commit)**
