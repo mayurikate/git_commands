@@ -59,6 +59,13 @@ This is sample readme which i have tried by learning git commands :)
 - **clip < ~/.ssh/id_rsa.pub** (for windows)
 - **pbcopy < ~/.ssh/id_rsa.pub** (for mac)
 
+## [Ignoring some files/folders in git repository]
+- **[touch .gitignore ]---->>(Create a new file .gitignore in project folder and list down single file/folder in each line to be ignored)**
+- **[git commit .gitignore]---->>(Commit .gitignore file and the contents in the file are not tracked anymore)**
+
+## [Cloning the project on local computer]
+- **[git clone url]---->>(Downlaod the entire project mentioned in url with the folderame as the one mentioned in url i.e. before .git)**
+- **[git clone url new_foldername]---->>(if we dont want to clone our project in default folder but in customized new_foldername)**
 
 ## Contributing
 
